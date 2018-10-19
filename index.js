@@ -25,7 +25,8 @@ function currentLine(katzDeliLine){
         return lineStatus;
       } else { lineStatus = lineStatus.concat(", ")
       }
-    return lineStatus;
+    
     }
+    return lineStatus
   }
 }
