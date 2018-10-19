@@ -12,3 +12,7 @@ function nowServing(katzDeliLine){
     return `Currently serving ${number1}.`
   }
 }
+
+function currentLine(katzDeliLine){
+  
+}
