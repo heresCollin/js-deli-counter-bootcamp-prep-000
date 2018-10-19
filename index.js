@@ -1,1 +1,3 @@
-var katzDeliLine = [];
+function takeANumber(line,newPerson){
+  
+}
