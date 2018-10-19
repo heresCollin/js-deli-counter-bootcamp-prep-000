@@ -20,7 +20,8 @@ function currentLine(katzDeliLine){
     var lineStatus = "The line is currently:"
     for (var i = 0; i < katzDeliLine.length; i ++){
       var position = i + 1;
-      lineStatus.concat(`${position}. ${katzDeliLine[i]}${position === katzDeliLine.length? ", ":}`);
+      lineStatus.concat(`${position}. ${katzDeliLine[i]}${position === katzDeliLine.length ? ", " : }`);
     }
+    return lineStatus;
   }
 }
