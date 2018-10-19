@@ -19,7 +19,8 @@ function currentLine(katzDeliLine){
   } else { 
     var lineStatus = "The line is currently:"
     for (var i = 0; i < katzDeliLine.length; i ++){
-      lineStatus.concat(`${i + 1}. `)
+      var position = i + 1;
+      lineStatus.concat(`${position}. ${katzDeliLine[i]}${position === katzDeliLine.length? ", ":}`);
     }
   }
 }
